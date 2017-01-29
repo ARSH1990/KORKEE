@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03302694E91E3DE9BAD5202C /* Pods_KORKEE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AEEABCAB8800BBAC6374C2 /* Pods_KORKEE.framework */; };
 		3434EB1A1E3E98170051F21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3434EB191E3E98170051F21D /* AppDelegate.swift */; };
-		3434EB1C1E3E98170051F21D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3434EB1B1E3E98170051F21D /* ViewController.swift */; };
+		3434EB1C1E3E98170051F21D /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3434EB1B1E3E98170051F21D /* SingInVC.swift */; };
 		3434EB1F1E3E98170051F21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3434EB1D1E3E98170051F21D /* Main.storyboard */; };
 		3434EB211E3E98170051F21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3434EB201E3E98170051F21D /* Assets.xcassets */; };
 		3434EB241E3E98170051F21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3434EB221E3E98170051F21D /* LaunchScreen.storyboard */; };
+		3434EB2C1E3E98250051F21D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3434EB2B1E3E98250051F21D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3434EB161E3E98170051F21D /* KORKEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KORKEE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3434EB191E3E98170051F21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3434EB1B1E3E98170051F21D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3434EB1B1E3E98170051F21D /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
 		3434EB1E1E3E98170051F21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3434EB201E3E98170051F21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3434EB231E3E98170051F21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3434EB251E3E98170051F21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3434EB2B1E3E98250051F21D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		756062FDF210E262CDAD1B6F /* Pods-KORKEE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KORKEE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KORKEE/Pods-KORKEE.debug.xcconfig"; sourceTree = "<group>"; };
+		A5AEEABCAB8800BBAC6374C2 /* Pods_KORKEE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KORKEE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F5A5CCBABD4C400BD7584B /* Pods-KORKEE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KORKEE.release.xcconfig"; path = "Pods/Target Support Files/Pods-KORKEE/Pods-KORKEE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03302694E91E3DE9BAD5202C /* Pods_KORKEE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				3434EB181E3E98170051F21D /* KORKEE */,
 				3434EB171E3E98170051F21D /* Products */,
+				764484F5B97D7F9B7CB625D0 /* Pods */,
+				445409484B32DF760313D7DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,56 @@
 		3434EB181E3E98170051F21D /* KORKEE */ = {
 			isa = PBXGroup;
 			children = (
+				3434EB2D1E3E9AD10051F21D /* Model */,
+				3434EB2F1E3E9AEA0051F21D /* Controller */,
+				3434EB2E1E3E9ADB0051F21D /* View */,
 				3434EB191E3E98170051F21D /* AppDelegate.swift */,
-				3434EB1B1E3E98170051F21D /* ViewController.swift */,
 				3434EB1D1E3E98170051F21D /* Main.storyboard */,
 				3434EB201E3E98170051F21D /* Assets.xcassets */,
 				3434EB221E3E98170051F21D /* LaunchScreen.storyboard */,
 				3434EB251E3E98170051F21D /* Info.plist */,
+				3434EB2B1E3E98250051F21D /* GoogleService-Info.plist */,
 			);
 			path = KORKEE;
+			sourceTree = "<group>";
+		};
+		3434EB2D1E3E9AD10051F21D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3434EB2E1E3E9ADB0051F21D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3434EB2F1E3E9AEA0051F21D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3434EB1B1E3E98170051F21D /* SingInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		445409484B32DF760313D7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5AEEABCAB8800BBAC6374C2 /* Pods_KORKEE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		764484F5B97D7F9B7CB625D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756062FDF210E262CDAD1B6F /* Pods-KORKEE.debug.xcconfig */,
+				F0F5A5CCBABD4C400BD7584B /* Pods-KORKEE.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3434EB281E3E98170051F21D /* Build configuration list for PBXNativeTarget "KORKEE" */;
 			buildPhases = (
+				450FD830033ACD95AB4CE831 /* [CP] Check Pods Manifest.lock */,
 				3434EB121E3E98170051F21D /* Sources */,
 				3434EB131E3E98170051F21D /* Frameworks */,
 				3434EB141E3E98170051F21D /* Resources */,
+				19B0874B5970F9525DF9193A /* [CP] Embed Pods Frameworks */,
+				16EC1F81966ECB137D95C5CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,17 +180,66 @@
 				3434EB241E3E98170051F21D /* LaunchScreen.storyboard in Resources */,
 				3434EB211E3E98170051F21D /* Assets.xcassets in Resources */,
 				3434EB1F1E3E98170051F21D /* Main.storyboard in Resources */,
+				3434EB2C1E3E98250051F21D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16EC1F81966ECB137D95C5CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KORKEE/Pods-KORKEE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19B0874B5970F9525DF9193A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KORKEE/Pods-KORKEE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450FD830033ACD95AB4CE831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3434EB121E3E98170051F21D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3434EB1C1E3E98170051F21D /* ViewController.swift in Sources */,
+				3434EB1C1E3E98170051F21D /* SingInVC.swift in Sources */,
 				3434EB1A1E3E98170051F21D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +361,7 @@
 		};
 		3434EB291E3E98170051F21D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756062FDF210E262CDAD1B6F /* Pods-KORKEE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KORKEE/Info.plist;
@@ -270,6 +374,7 @@
 		};
 		3434EB2A1E3E98170051F21D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F5A5CCBABD4C400BD7584B /* Pods-KORKEE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KORKEE/Info.plist;
@@ -299,6 +404,7 @@
 				3434EB2A1E3E98170051F21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

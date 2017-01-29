@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>392680166604-qfni5o6otnjl9h0tgi8cdr9f3fi3pfhb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.392680166604-qfni5o6otnjl9h0tgi8cdr9f3fi3pfhb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD0vyb7Iu3RLkGZ6D05dmxG9A6uSi5eVts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>392680166604</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AR.SH.KORKEE</string>
+	<key>PROJECT_ID</key>
+	<string>korkee-c9255</string>
+	<key>STORAGE_BUCKET</key>
+	<string>korkee-c9255.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:392680166604:ios:c154bc6f946614af</string>
+	<key>DATABASE_URL</key>
+	<string>https://korkee-c9255.firebaseio.com</string>
+</dict>
+</plist>
